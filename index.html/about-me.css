@@ -3,54 +3,56 @@
 /* Body style*/
 
 body {
-  display: inline-block;
+  border: 1px solid;
+  max-width: 700px;
+  padding: 1rem;
+  box-shadow: black 3px;
 }
 
+/* font */
 .me,
 .holyday,
 .village {
   font-family: sans-serif;
   font-size: 100%;
-  margin: 10px 50px 20px auto;
-  background-color: rgb(157, 231, 250);
-  width: 25rem;
-  padding-left: 10px;
-  padding-right: 10px;
 }
-
-.me,
-.holyday,
-.village {
-  justify-content: flex-start;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-}
-
 
 h2 {
   font-family: serif;
   text-decoration: black;
   text-decoration-line: underline;
   padding-right: 1rem;
-}
-
-.images {
-  background-color: cornsilk;
-  display: inline-block;
-
-}
-
-.images > p > img {
-  width: 25rem;
-  padding: 10px 10px 10px 10px;
-  display: flex;
-  flex-wrap: wrap;
+  color: blueviolet;
 }
 
 h4 {
   font-family: serif;
+}
+
+/* Images */
+.images {
+  background-color: cornsilk;
+  display: inline-block;
+}
+
+img {
+  float: right;
+}
+
+/* Paragraph */
+p {
+  padding-left: 1rem;
+}
+
+/* Link */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
   color: brown;
+  transform: translate(2s);
 }
 
 
