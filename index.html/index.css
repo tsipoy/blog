@@ -1,0 +1,50 @@
+/* Body style */
+body {
+  background: linear-gradient(to bottom left, cyan 33%, palegoldenrod 60%);
+  background-repeat: no-repeat;
+}
+
+
+/* ul */
+body header nav ul  {
+  justify-content: flex-end;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body header nav ul {
+  margin-right: 3rem;
+}
+
+body header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* li */
+body header nav ul > li {
+  margin-right: 10px;
+  margin-top: -3.5rem;
+  border: 1px solid;
+  background-color: lightcoral;
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 6px;
+  list-style: none;
+}
+
+body header nav ul > li:hover {
+  transform: scale(1s);
+  color: white;
+}
+
+
+/* a */
+body header a {
+  text-decoration: none;
+}
+
+
+

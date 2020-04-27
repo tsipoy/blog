@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* Body style*/
+
+body {
+  border: 1px solid;
+  max-width: 700px;
+  padding: 1rem;
+  box-shadow: black 3px;
+}
+
+/* font */
+.me,
+.holyday,
+.village {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+h2 {
+  font-family: serif;
+  text-decoration: blueviolet;
+  text-decoration-line: underline;
+  padding-right: 1rem;
+  color: blueviolet;
+}
+
+h4 {
+  font-family: serif;
+}
+
+/* Images */
+.images {
+  background-color: cornsilk;
+  display: inline-block;
+}
+
+img {
+  float: right;
+}
+
+/* Paragraph */
+p {
+  padding-left: 1rem;
+}
+
+/* Link */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: brown;
+  transform: translate(2s);
+}
+
+
+  
